@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    justify-content: center;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.content {
+    margin-right: auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.colors {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.colors > li {
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    transition-duration: .2s;
+    box-shadow: 0 2px 1px rgba(0,0,0,.2);
+}
+
+.colors > li:hover {
+    transform: scale(1.2);
+    border-bottom: 10px solid rgba(0,0,0,.15);
+    box-shadow:  0 10px 10px rgba(0, 0,0, .2);
+}
+
+.color > li.active-color {
+    transform: scale(1.2) translateY(-10px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+    border-bottom: 20px solid rgba(0,0,0,.15);
+}
+
+
+/* color pallete */
+.colors > li:nth-child(1) {
+    background-color: #FF2C00 ;
+}
+
+.colors > li:nth-child(2) {
+    background-color: #FF8E16 ;
+}
+
+.colors > li:nth-child(3) {
+    background-color: #C2FF46 ;
+}
+
+.colors > li:nth-child(4) {
+    background-color: #46D3FF ;
+}
+
+.colors > li:nth-child(5) {
+    background-color: #AA46FF ;
+}
+
+.colors > li:nth-child(6) {
+    background-color: #FF46D1;
+}
+
