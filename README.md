@@ -12,3 +12,5 @@ JavaScript: Implements the color cycling.
 
 
 Thank you for exploring my Color Switcher App! We hope you enjoy experimenting with different colors. If you have any questions or suggestions, feel free to contact me.
+
+[Live demo](https://tylercodes-11.github.io/colorswitcher/)
